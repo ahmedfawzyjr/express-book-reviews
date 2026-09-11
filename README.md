@@ -1,8 +1,14 @@
-# Express Book Reviews
+<div align="center">
+  
+  <h1>Express Book Reviews</h1>
+  <p><strong>Express.js RESTful API web application for book review cataloging, JWT authentication, user registration, and rating management.</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Visibility-Public-green?style=for-the-badge" alt="Visibility" />
+    <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
+    <img src="https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge" alt="Status" />
+  </p>
+</div>
 
-![Public](https://img.shields.io/badge/Visibility-Public-green?style=for-the-badge) ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge) ![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)
-
-> **Express.js RESTful API web application for book review cataloging, JWT authentication, user registration, and rating management.**
 
 ---
 
@@ -13,22 +19,22 @@
 
 ## 🚀 Overview & Key Features
 
-`express-book-reviews` is a production-ready repository engineered with best-practice architecture, high-performance logic, and comprehensive maintainability standards.
+`express-book-reviews` is an engineered codebase optimized for modular architecture, maintainability, and enterprise-grade code standards.
 
-### ✨ Highlights
-- ⚡ **High Performance & Scalability**: Built following modular design patterns for reliable runtime execution.
-- 🔒 **Security-First Architecture**: Strictly scoped control flow, input validation, and clean dependency management.
-- 🎨 **Unified Design System**: Consistent visual language, tokenized assets, and seamless user experiences.
-- 🛠️ **DevOps & CI/CD Ready**: Configured for automated testing, linting, and continuous deployment workflows.
+### ✨ Key Highlights
+- ⚡ **High Performance & Scalability**: Designed with clean separation of concerns and optimized execution logic.
+- 🔒 **Security-First Standards**: Enforced input validation, safe dependency management, and structured error handling.
+- 🎨 **Unified Visual Identity**: Integrated with physical brand assets, customized logos, and standardized design tokens.
+- 🛠️ **DevOps & Automation Ready**: Out-of-the-box support for continuous integration, automated tests, and deployment.
 
 
 ---
 
 ## 🛠️ Technology Stack & Architecture
 
-- **Core Technologies**: `Node.js`, `Express.js`, `REST API`
-- **Architecture Pattern**: Layered Separation of Concerns (Domain, Data, Presentation / Service layers)
-- **Quality Standards**: Clean Code, SOLID Principles, Automated Tests & Strict Type Safety
+- **Core Frameworks & Tools**: `Node.js`, `Express.js`, `REST API`
+- **Architectural Pattern**: Layered Architecture (Domain, Data, Logic & UI Layers)
+- **Quality Benchmarks**: Clean Code, SOLID Principles, Strict Typing, Unit & Integration Coverage
 
 ---
 
@@ -36,24 +42,25 @@
 
 ```text
 express-book-reviews/
-├── src/ / lib/           # Core Application Logic & Source Code
-├── tests/                # Unit & Integration Test Suites
-├── config/               # System & Environment Configurations
-├── docs/                 # Technical Documentation & Specs
-├── .gitignore            # Git Ignored File Patterns
+├── assets/               # Brand Assets, Logos, and Media
+│   └── logo.png          # App Icon / Logo Image
+├── src/ / lib/           # Core Source Code & Modules
+├── tests/                # Automated Test Suites
+├── config/               # Environment & System Configurations
+├── docs/                 # Technical Specs & Architecture Docs
 ├── README.md             # Repository Documentation
-└── package.json / pubspec / requirements.txt # Project Dependencies
+└── package.json / pubspec / requirements.txt
 ```
 
 ---
 
-## ⚙️ Getting Started & Installation
+## ⚙️ Getting Started & Local Setup
 
 ### Prerequisites
 - Node.js >= 18.0.0
 - npm
 
-### Installation Steps
+### Installation & Run Steps
 
 1. **Clone the Repository**:
    ```bash
@@ -66,12 +73,12 @@ express-book-reviews/
    npm install
    ```
 
-3. **Configure Environment Variables**:
+3. **Configure Environment**:
    ```bash
    cp .env.example .env
    ```
 
-4. **Run the Application**:
+4. **Run Application**:
    ```bash
    npm start
    ```
@@ -80,7 +87,7 @@ express-book-reviews/
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/ahmedfawzyjr/express-book-reviews/issues).
+Contributions, bug reports, and feature proposals are welcome! Feel free to open an issue or pull request on [GitHub](https://github.com/ahmedfawzyjr/express-book-reviews/issues).
 
 ---
 
@@ -88,10 +95,10 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 **Ahmed Fawzy**
 * GitHub: [@ahmedfawzyjr](https://github.com/ahmedfawzyjr)
-* Role: Senior Software Engineer (Mobile Architecture, Backend & Infrastructure Systems)
+* Role: Senior Software Engineer (Mobile Architecture, Backend Systems & Infrastructure)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details.
+This repository is licensed under the MIT License - see the `LICENSE` file for details.
